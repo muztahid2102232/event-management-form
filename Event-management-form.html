@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Form Practice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Event Registration Form</h1>
+    <form action="" >
+    <fieldset>
+    <!-- ! google e ki auto complete on kora thake normally? and personal info section -->
+<span>1. PERSONAL INFORMATION</span> <br><br>
+<label for="fname">Full Name</label><br>
+<input type="text" name="fname" id="fname" required placeholder="Enter your full name">
+<label for="email">Email Address</label>
+<input type="email" name="email" id="email" required placeholder="name@example.com"> <br><br>
+<label for="dof">Date of birth</label> <br><br>
+<!-- ! Placeholder issue here -->
+<input type="date" name="dof" id="dof"> <br><br>  
+<label for="age">Enter your age</label> <br><br>
+    <input type="number" name="" id="age"> <br><br>
+    <!-- ! ekhane pic er moto option kivabe banabo? -->
+    <p>Gender</p> <br>
+    <label for="gen1">
+    <input type="radio" name="gender" id="gen1">    
+        Male</label>
+    <label for="gen2">
+    <input type="radio" name="gender" id="gen2">    
+        Female</label> <br><br>
+        <label for="gen3"> <input type="radio" name="" id="gen3">Other</label>
+        <label for="gen4"> <input type="radio" name="" id="gen4">Not prefer to say</label> <br><br>
+    <label for="">Phone Number</label> <br><br>
+    <input type="number"> <br><br>
+<!-- ! ami kivabe phone number likhbo only and maximum 11 digit fixed kore dibo? -->
+<label for="add">Address</label> <br><br>
+<!-- ! text area te placeholder kaj kore na? -->
+ <textarea name="" id="add" placeholder="Enter your complete address" cols="50" required> 
+ </textarea> <br><br>
+ <label for="city">City</label> <br><br>
+ <input type="text" name="" id="city" required placeholder="Enter city"> <br><br>
+ 
+ <label for="state">State</label> <br><br>
+ <input type="text" name="" id="state" required placeholder="Enter state"> <br><br>
+ <label for="pin-code">pin code</label> <br><br>
+ <input type="text" name="" id="pin-code" required placeholder="Enter PIN code"> <br><br>
+ <input type="submit" value="Please submit">
+    </fieldset>
+    </form>
+</body>
+</html>
